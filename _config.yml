@@ -24,7 +24,7 @@ author:
   avatar           : "headshot.jpg"
   name             : "PinHan Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Research Scientist @ MediaTek, MEng AI @ UCLA, Double major CS & AM @ NYCU. Interested in Reinforcement Learning, LLM, and high-dimensional optimization problems."
+  bio              : "Research Scientist @ MediaTek,\nMEng AI @ UCLA,\nDouble major CS & AM @ NYCU.\nInterested in Reinforcement Learning, LLM, and high-dimensional optimization problems."
   location         : "Los Angeles, CA"
   # employer         : "Red Brick University"
   uri              : # URL
@@ -36,7 +36,7 @@ author:
   impactstory      : # URL
   # orcid            : "http://orcid.org/yourorcidurl"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
 
   # Repositories and software development
