@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "PinHan Chen"
+title                    : "Peter Chen"
 title_separator          : "-"
-name                     : &name "PinHan Chen"
-description              : &description "personal description"
+name                     : &name "Peter Chen"
+description              : &description "This is Peter(PinHan)'s website."
 url                      : https://pinhan-chen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "pinhan-chen/pinhan-chen.github.io"
@@ -24,7 +24,10 @@ author:
   avatar           : "headshot.jpg"
   name             : "PinHan Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Research Scientist @ MediaTek,\nMEng AI @ UCLA,\nDouble major CS & AM @ NYCU.\nbInterested in Reinforcement Learning, Generative AI, and High-dimensional Optimization problems."
+  bio              : "Research Scientist @ MediaTek,\
+                      MEng AI @ UCLA,\
+                      BSc CS & AM (double major) @ NYCU.\
+                      Interested in Reinforcement Learning, Generative AI, RLHF, and High-dimensional Optimization Problems."
   location         : "Los Angeles, CA"
   # employer         : "Red Brick University"
   uri              : # URL

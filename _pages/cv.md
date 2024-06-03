@@ -11,26 +11,31 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* MEng Artificial Intelligence, **University of California, Los Angles**, 2023
+* BSc Computer Science, Applied Mathematics (double major), **National Yang Ming Chiao Tung University**, 2022
+* Exchange Student Mathematics, **Nanyang Technology University**, 2020
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* Mar 2024 – Present: Research Scientist
+  * **MediaTek** Strategic Technology Team, West Lafayette, Indiana
+  * Focused on high-dimensional optimization problems using Deep Reinforcement Learning, Simulated Annealing, and Bayesian Optimization
+  * Worked with PhDs and staff/senior level colleagues as a Master graduate (the only one of the team) 
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Jun 2023 – Sep 2023: Machine Learning Engineer
+  * **Johns Hopkins Hospital**, Remote
+  * Built a patient volume prediction system using LightGBM and RNN within 2 months
+  * Deployed a regression model with less than 5% error rate by inventing ensemble and weighted algorithms
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Apr 2022 – Aug 2022: Machine Learning Engineer
+  * **MediaTek** Artificial Intelligence Team, Hsinchu, Taiwan
+  * Reduced Macro Placement production time by 60% with a Deep Reinforcement Learning (DRL) model
+  * Earned two distinguished job performance awards within 5 months
+
+* Feb 2021 – Jan 2022: Research Assistant
+  * **CGI Lab**, Hsinchu, Taiwan
+  * Built an AI model using the MuZero Algorithm, which can defeat players in Reversi and Chinese Dark Chess
+  * The first research that utilized MuZero Algorithm on Chinese Dark Chess (as of Jan 2022)
   
 Skills
 ======
