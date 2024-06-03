@@ -31,7 +31,7 @@ Work experience
 * Jun 2023 – Sep 2023: Machine Learning Intern
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
   * Deployed a regression model with less than 5% error rate by inventing ensemble and weighted algorithms
-  * Built a patient volume prediction system with 4 team members within 2 months using Python, LightGBM, and Keras
+  * Built a patient volume prediction system with 4 team members using Python, LightGBM, and Keras
 
 * Apr 2022 – Aug 2022: Machine Learning Engineer
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
@@ -40,23 +40,23 @@ Work experience
 
 * Feb 2021 – Jan 2022: Research Assistant
   * [**CGI Lab**](https://cgilab-tw.github.io/), Hsinchu, Taiwan
-  * Built an AI model using the MuZero Algorithm, which can defeat players in [Othello](https://en.wikipedia.org/wiki/Reversi) and Chinese [Dark Chess](https://en.wikipedia.org/wiki/Banqi)
+  * Built an AI model using the MuZero Algorithm, which can defeat players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
   * The first research that utilized MuZero Algorithm on Chinese Dark Chess as of Jan 2022
 
 * Mar 2020 – Jun 2020: Undergraduate Research Assistant
   * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Hsinchu, Taiwan
   * Built the POC of a feature extraction algorithm for high-dimensional datasets using C/C++
-  * Utilized the YOLOv3 algorithm to build a X-ray image classification model within three months
+  * Utilized the YOLOv3 algorithm to build a Cardiology X-ray film classification model within three months
 
 
 Leadership / Extracurricular
 ======
-* **Mentor @ Blue Gar Program**, National Chiao Tung University, Oct 2019 - Jun 2021
+* **Mentor @ Blue Gar Program**, National Chiao Tung University, 2019 - 2021
   * Ranked at the 1st place in the McKinsey case competition among 15 distinguished students of the year
   * Guided leaders from student clubs and ran weekly study groups to develop leadership and business ideology
   * Gained 100% profit within a month with TWD $5000 by building a start-up among college student community
 
-* **Vice President @ The Midland of Taiwan Alumni Association**, National Chiao Tung University, July 2018 - June 2019
+* **Vice President @ The Midland of Taiwan Alumni Association**, National Chiao Tung University, 2018 - 2019
   * Best student association of the year (2019)
   * Initiated the first cross-associations event with 5 leaders, which has become the largest annual event
   * Led a team over 50 members to organize a 10-day coding bootcamp for over 300 high school students
