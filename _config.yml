@@ -21,7 +21,7 @@ repository               : "pinhan-chen/pinhan-chen.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.png"
+  avatar           : "headshot.jpg"
   name             : "PinHan Chen"
   pronouns         : # example: "she/her"  
   bio              : "Research Scientist @ MediaTek, MEng AI @ UCLA, Double major CS & AM @ NYCU. Interested in Reinforcement Learning, LLM, and high-dimensional optimization problems."
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  # bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -59,13 +59,13 @@ author:
   lastfm           : # Username
   linkedin         : "pinhan-chen"
   mastodon         : # URL
-  medium           : "phchen715"
+  medium           : https://medium.com/@phchen715
   pinterest        : # Username
   soundcloud       : # Username
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  X                : "phchen715"
+  twitter          : "phchen715"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
