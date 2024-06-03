@@ -24,7 +24,7 @@ author:
   avatar           : "headshot.jpg"
   name             : "PinHan Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Research Scientist @ MediaTek,\nMEng AI @ UCLA,\nDouble major CS & AM @ NYCU.\nInterested in Reinforcement Learning, LLM, and high-dimensional optimization problems."
+  bio              : "Research Scientist @ MediaTek,\nMEng AI @ UCLA,\nDouble major CS & AM @ NYCU.\nbInterested in Reinforcement Learning, LLM, and high-dimensional optimization problems."
   location         : "Los Angeles, CA"
   # employer         : "Red Brick University"
   uri              : # URL
