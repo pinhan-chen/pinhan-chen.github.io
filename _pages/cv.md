@@ -55,7 +55,7 @@ Selected Projects
   * Implemented a movie recommendation system with over 87% precision using SVD, NMF, and KNN algorithms
   * Performed Sentimental Analysis on a time-series Twitter dataset using the NLTK package
 
-* [**House Prices Prediction Competition**](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques), Kaggle, Jun 2021
+* [**House Prices Prediction Competition**](https://github.com/pinhan-chen/house_price_prediction), [Kaggle]((https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques)), Jun 2021
   * Ranked in the top 3% out of 4,412 teams by achieving less than 10% error rate
   * Built an ensemble learning model with algorithms including Random Forest, XGBoost, and LightGBM
 
