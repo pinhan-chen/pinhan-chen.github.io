@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Peter Chen"
+title: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Welcome to my website! I am PinHan (Peter) Chen, a research scientist at MediaTek who is enthusiastic about Artificial Intelligence including Deep Reinforcement Learning, Generative AI, RLHF, and even AGI. Currently, I am working on high-dimensional optimization problems using Reinforcement Learning, Simulated Annealing, and Bayesian Learning. 
+Welcome to my website! I am PinHan (Peter) Chen, a research scientist at MediaTek who is enthusiastic about Artificial Intelligence such as Deep Reinforcement Learning, Generative AI, RLHF, and ultimately, AGI. Currently, I am working on high-dimensional optimization problems using Reinforcement Learning, Simulated Annealing, and Bayesian Learning. 
 
 <!-- A data-driven personal website
 ======
