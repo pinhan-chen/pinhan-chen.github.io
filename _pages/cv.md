@@ -17,8 +17,9 @@ Education
 
 Technical Skills
 ======
-* Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, LaTex
-* Softwares/Frameworks: Docker, Linux, Jenkins, Git, Jira, Tableau
+* Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, MATLAB, Socket programming
+* Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3
+* Softwares/Tools: Docker, Linux, Jenkins, Git, Jira, Tableau
 
 
 Work experience
@@ -50,17 +51,17 @@ Work experience
 
 Selected Projects
 ======
-* **Large-scale Data Mining**, University of California, Los Angles, Mar 2023
+* [**Large-scale Data Mining**](https://github.com/pinhan-chen/large_scale_data_mining), University of California, Los Angles, Mar 2023
   * Implemented a movie recommendation system with over 87% precision using SVD, NMF, and KNN algorithms
   * Performed Sentimental Analysis on a time-series Twitter dataset using the NLTK package
 
-* **House Prices Prediction Competition**, Kaggle, Jun 2021
+* [**House Prices Prediction Competition**](https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques), Kaggle, Jun 2021
   * Ranked in the top 3% out of 4,412 teams by achieving less than 10% error rate
   * Built an ensemble learning model with algorithms including Random Forest, XGBoost, and LightGBM
 
-* **Bulletin Board System**, National Chiao Tung University, Dec 2020
+* [**Bulletin Board System**](https://github.com/pinhan-chen/BBS), National Chiao Tung University, Dec 2020
   * Designed a BBS supporting multi-threaded communication, real-time chatroom, and interactive system
-  * Implemented a server-client system that supported over 500 users simultaneously using socket programming and Python
+  * Implemented a server-client system that supported over 500 users simultaneously using socket programming
 
 
 Leadership / Extracurricular
