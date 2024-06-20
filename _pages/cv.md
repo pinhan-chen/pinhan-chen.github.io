@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/1LzWQJFOfpfuFAAkjJGi4QJUHMIZPZFI3/view?usp=sharing).
+
 Education
 ======
 * MEng in Artificial Intelligence, **University of California, Los Angeles (UCLA)**, 2023
