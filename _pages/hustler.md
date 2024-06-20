@@ -13,14 +13,16 @@ Ongoing Projects
 ======
 * **Weekly Paper Review**
 
-In a world where social media platforms like Instagram, YouTube, and TikTok dominate our attention, it's crucial to reclaim our focus and build something meaningful. To address this, I am launching a Weekly Paper Review program as the first step towards developing my personal brand. Here's the goal I want to achieve:
+  In a world where social media platforms like Instagram, YouTube, and TikTok dominate our attention, it's crucial to reclaim our focus and build something meaningful. To address this, I am launching a Weekly Paper Review program as the first step towards developing my personal brand. Here's the goal I want to achieve:
+
   * **Combat Distraction**: Social media giants exploit our attention, often leaving us distracted and unfulfilled. This program aims to help us regain control of our focus.
   * **Build Personal Brand**: This project marks the beginning of my journey towards establishing a unique and impactful personal brand.
   * **Retain Intrinsic Value**: As we navigate an AI-empowered society, the fear of being replaced by machines looms large. By engaging with insightful papers and thoughtful discussions, we preserve and enhance our intellectual and personal growth.
 
 * **Automatic Trader Bot**
 
-In the pursuit of financial stability and growth, I am developing an Automatic Trader Bot designed to perform arbitrage in the stock and cryptocurrency markets. This project aims to leverage market inefficiencies for consistent gains.
+  In the pursuit of financial stability and growth, I am developing an Automatic Trader Bot designed to perform arbitrage in the stock and cryptocurrency markets. This project aims to leverage market inefficiencies for consistent gains.
+  
   * **Financial Growth**: The primary motivation is the potential for monetary gain. Compound interest is crucial, and the imperfections in the stock and crypto markets provide ample opportunities for profitable arbitrage.
   * **Stable Cash Flow**: By generating a steady monthly income, the bot can alleviate economic pressures, allowing me to focus on higher-risk, higher-reward investment opportunities.
   * **Skill Development**: As a STEM grad, this project allows me to apply my skills in coding, mathematics, and economics. It serves as a practical and impactful example of how these disciplines can create tangible financial benefits.
