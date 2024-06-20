@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* MEng in Artificial Intelligence, **University of California, Los Angles**, 2023
+* MEng in Artificial Intelligence, **University of California, Los Angeles (UCLA)**, 2023
 * BSc in Computer Science, Applied Mathematics (double major), **National Yang Ming Chiao Tung University**, 2022
 * Exchange Student in Mathematics, **Nanyang Technology University**, 2020
 
@@ -25,10 +25,10 @@ Technical Skills
 
 Work experience
 ======
-* Mar 2024 – Present: **Research Scientist Intern**
+* Mar 2024 – Present: **AI Research Scientist**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
   * Hired as an exceptional employee; Led and collaborated with senior colleagues having a PhD or 5+ years of experience
-  * Focused on high-dimensional optimization problems using Deep Reinforcement Learning, Simulated Annealing, and Bayesian Optimization
+  * Focused on-chip AI development using Deep Reinforcement Learning, Simulated Annealing, and Bayesian Optimization
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
