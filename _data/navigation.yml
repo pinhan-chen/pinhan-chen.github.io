@@ -17,6 +17,13 @@ main:
     
   - title: "CV"
     url: /cv/
-    
+
+  - title: "Software projects"
+    url: /sw-projects/
+  
+  - title: "Hustlers
+  
+  "
+    url: /side-projects/
   # - title: "Guide"
   #   url: /markdown/

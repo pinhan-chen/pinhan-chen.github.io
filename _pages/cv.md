@@ -18,21 +18,22 @@ Education
 Technical Skills
 ======
 * Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, MATLAB, Socket programming
-* Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3
-* Softwares/Tools: Docker, Linux, Jenkins, Git, Jira, Tableau
+* Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3, Ray
+* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees
+* Softwares/Tools: Coze, Docker, Linux, Jenkins, Git, Jira, Tableau, Azure, AWS
 
 
 Work experience
 ======
 * Mar 2024 – Present: **Research Scientist Intern**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, Indiana
-  * Worked with PhDs and staff/senior level colleagues as a Master graduate (the only one of the team) 
+  * Hired as an exceptional employee; Led and collaborated with senior colleagues having a PhD or 5+ years of experience
   * Focused on high-dimensional optimization problems using Deep Reinforcement Learning, Simulated Annealing, and Bayesian Optimization
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
   * Deployed a regression model with less than 5% error rate by inventing ensemble and weighted algorithms
-  * Built a patient volume prediction system with 4 team members using Python, LightGBM, and Keras
+  * Constructed a patient volume prediction system with 4 team members using Python, LightGBM, and Keras
 
 * Apr 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
@@ -51,6 +52,10 @@ Work experience
 
 Selected Projects
 ======
+* **MLLM Career Advisor**, Self-employed, Mar 2023
+  * Built a personalized advisor with skills such as ML knowledge, code advises, techniques tracking, and career analysis
+  * Integrated with a server which can accommodate up to 10,000 users simultaneously using Coze and Discord
+
 * [**Large-scale Data Mining**](https://github.com/pinhan-chen/large_scale_data_mining), University of California, Los Angles, Mar 2023
   * Implemented a movie recommendation system with over 87% precision using SVD, NMF, and KNN algorithms
   * Performed Sentimental Analysis on a time-series Twitter dataset using the NLTK package
@@ -67,8 +72,8 @@ Selected Projects
 Leadership / Extracurricular
 ======
 * **Mentor @ Blue Gar Program**, National Chiao Tung University, 2019 - 2021
-  * Ranked at the 1st place in the McKinsey case competition among 15 distinguished students of the year
-  * Guided leaders from student clubs and ran weekly study groups to develop leadership and business ideology
+  * Ranked at the 1st place in the McKinsey case competition among 15 annually nominated students
+  * Led weekly study groups to develop leadership and business ideology for distinguished student leaders
   * Gained 100% profit within a month with TWD $5000 by building a start-up among college student community
 
 * **Vice President @ [The Midland of Taiwan Alumni Association](https://www.facebook.com/NctuCyFamily)**, National Chiao Tung University, 2018 - 2019
