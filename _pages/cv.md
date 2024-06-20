@@ -26,7 +26,7 @@ Technical Skills
 Work experience
 ======
 * Mar 2024 – Present: **Research Scientist Intern**
-  * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, Indiana
+  * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
   * Hired as an exceptional employee; Led and collaborated with senior colleagues having a PhD or 5+ years of experience
   * Focused on high-dimensional optimization problems using Deep Reinforcement Learning, Simulated Annealing, and Bayesian Optimization
 
@@ -41,12 +41,12 @@ Work experience
   * Reduced Macro Placement production time by 60% with a Deep Reinforcement Learning (DRL) model
 
 * Feb 2021 – Jan 2022: **Research Assistant**
-  * [**CGI Lab**](https://cgilab-tw.github.io/), Hsinchu, Taiwan
+  * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
   * Built an AI model using the MuZero Algorithm, which can defeat players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
   * The first research that utilized MuZero Algorithm on Chinese Dark Chess as of Jan 2022
 
 * Mar 2020 – Jun 2020: **Undergraduate Research Assistant**
-  * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Hsinchu, Taiwan
+  * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Remote
   * Built the POC of a feature extraction algorithm for high-dimensional datasets using C/C++
   * Utilized the YOLOv3 algorithm to build a Cardiology X-ray film classification model within three months
 
