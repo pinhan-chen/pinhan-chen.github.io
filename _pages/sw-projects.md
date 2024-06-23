@@ -9,8 +9,9 @@ author_profile: true
 
 # MLLM Career Advisor
 Self-employed, Mar 2023
-  * Built a personalized advisor with skills such as ML knowledge, code advises, techniques tracking, and career analysis
-  * Integrated with a server which can accommodate up to 10,000 users simultaneously using Coze and Discord
+  * Implemented an LLM agent utilizing Generative AI and RAG, achieving a 30% improvement in response accuracy
+  * Boosted user satisfaction scores by 35% by integrating efficient data pipelines with a large-scale cloud server
+  * Increased 25% user engagement by deploying a multi-platform system using Coze, Discord, and Line
 
 # [**Large-scale Data Mining**](https://github.com/pinhan-chen/large_scale_data_mining)
 University of California, Los Angles, Mar 2023

@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "CV"
-permalink: /cv/
+title: "Resume"
+permalink: /resume/
 author_profile: true
 redirect_from:
   - /resume
@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version of my resume [here](https://drive.google.com/file/d/1LzWQJFOfpfuFAAkjJGi4QJUHMIZPZFI3/view?usp=sharing).
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/1t_tzbpvGjE8IldrU8_gQ1l6k6x5LEaWJ/view?usp=sharing).
 
 Education
 ======
@@ -21,8 +21,8 @@ Technical Skills
 ======
 * Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, MATLAB, Socket programming
 * Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3, Ray
-* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees
-* Softwares/Tools: Coze, Docker, Linux, Jenkins, Git, Jira, Tableau, Azure, AWS
+* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees, Generative AI
+* Softwares/Tools: Linux, Docker, Jenkins, Git, Jira, Tableau, Azure, AWS, Coze
 
 
 Work experience
@@ -30,33 +30,33 @@ Work experience
 * Mar 2024 – Present: **AI Research Scientist**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
   * Hired as an exceptional employee; Led and collaborated with senior colleagues having a PhD or 5+ years of experience
-  * Focused on-chip AI development using Deep Reinforcement Learning, Simulated Annealing, and Bayesian Optimization
+  * Designed a multi-objective optimization ML system utilizing physics surrogate models with Reinforcement Learning
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
-  * Deployed a regression model with less than 5% error rate by inventing ensemble and weighted algorithms
-  * Constructed a patient volume prediction system with 4 team members using Python, LightGBM, and Keras
+  * Achieved a less than 5% error rate by developing ensemble and weighted algorithms using LightGBM, and Keras
+  * Enhanced data foundation and feature engineering by designing a sequential data pipeline with 170k patient dataset
 
 * Apr 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
-  * Earned two distinguished job performance awards within 5 months (Top 1% among entry-level employees)
+  * Achieved top 1% ranking among entry-level employees, earning two distinguished job performance awards
   * Reduced Macro Placement production time by 60% with a Deep Reinforcement Learning (DRL) model
 
 * Feb 2021 – Jan 2022: **Research Assistant**
   * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
-  * Built an AI model using the MuZero Algorithm, which can defeat players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
+  * Engineered an AI model using the MuZero Algorithm to outperform top 1% players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
   * The first research that utilized MuZero Algorithm on Chinese Dark Chess as of Jan 2022
 
 * Mar 2020 – Jun 2020: **Undergraduate Research Assistant**
   * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Remote
-  * Built the POC of a feature extraction algorithm for high-dimensional datasets using C/C++
-  * Utilized the YOLOv3 algorithm to build a Cardiology X-ray film classification model within three months
+  * Developed a proof of concept for a feature extraction algorithm for high-dimensional datasets using C/C++
+  * Created a X-ray film classification model using the YOLOv3 algorithm, achieving 90% accuracy within three months
 
 Selected Projects
 ======
 * **MLLM Career Advisor**, Self-employed, Mar 2023
   * Built a personalized advisor with skills such as ML knowledge, code advises, techniques tracking, and career analysis
-  * Integrated with a server which can accommodate up to 10,000 users simultaneously using Coze and Discord
+  * Integrated with a large-scale cloud server and deployed a multi-platform system using Coze, Discord, and Line
 
 * [**Large-scale Data Mining**](https://github.com/pinhan-chen/large_scale_data_mining), University of California, Los Angles, Mar 2023
   * Implemented a movie recommendation system with over 87% precision using SVD, NMF, and KNN algorithms
