@@ -54,7 +54,7 @@ Work experience
 
 Selected Projects
 ======
-* **MLLM Career Advisor**, Self-employed, Mar 2023
+* **MLLM Career Advisor**, Self-employed, Jun 2024
   * Built a personalized advisor utilizing LLM and RAG, achieving a 30% improvement in response accuracy
   * Integrated with a large-scale cloud server and deployed a multi-platform system using Coze, Discord, and Line
 
