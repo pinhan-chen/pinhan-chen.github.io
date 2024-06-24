@@ -8,7 +8,7 @@ author_profile: true
 {% include base_path %}
 
 # MLLM Career Advisor
-Self-employed, Mar 2023
+Self-employed, Jun 2024
   * Implemented an LLM agent utilizing Generative AI and RAG, achieving a 30% improvement in response accuracy
   * Boosted user satisfaction scores by 35% by integrating efficient data pipelines with a large-scale cloud server
   * Increased 25% user engagement by deploying a multi-platform system using Coze, Discord, and Line
