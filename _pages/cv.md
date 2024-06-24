@@ -29,13 +29,13 @@ Work experience
 ======
 * Mar 2024 – Present: **AI Research Scientist**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
-  * Hired as an exceptional employee; Led and collaborated with senior colleagues having a PhD or 5+ years of experience
-  * Designed a multi-objective optimization ML system utilizing physics surrogate models with Reinforcement Learning
+  * Hired as an exceptional employee; Led and collaborated with seniors having a PhD or 5+ years of experience
+  * Designed a multi-objective optimization ML system utilizing surrogate models with Reinforcement Learning
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
-  * Achieved a less than 5% error rate by developing ensemble and weighted algorithms using LightGBM, and Keras
-  * Enhanced data foundation and feature engineering by designing a sequential data pipeline with 170k patient dataset
+  * Achieved over 95% accuracy by developing ensemble and weighted algorithms using LightGBM, and Keras
+  * Enhanced data foundation and feature engineering by designing a data pipeline with 170k patient dataset
 
 * Apr 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
@@ -44,18 +44,18 @@ Work experience
 
 * Feb 2021 – Jan 2022: **Research Assistant**
   * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
-  * Engineered an AI model using the MuZero Algorithm to outperform top 1% players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
+  * Engineered an AI model using [MuZero Algorithm](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) to outperform top 1% players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
   * The first research that utilized MuZero Algorithm on Chinese Dark Chess as of Jan 2022
 
 * Mar 2020 – Jun 2020: **Undergraduate Research Assistant**
   * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Remote
   * Developed a proof of concept for a feature extraction algorithm for high-dimensional datasets using C/C++
-  * Created a X-ray film classification model using the YOLOv3 algorithm, achieving 90% accuracy within three months
+  * Created a X-ray film classification model using YOLOv3 algorithm, achieving 90% accuracy within three months
 
 Selected Projects
 ======
 * **MLLM Career Advisor**, Self-employed, Mar 2023
-  * Built a personalized advisor with skills such as ML knowledge, code advises, techniques tracking, and career analysis
+  * Built a personalized advisor utilizing LLM and RAG techniques, achieving a 30% improvement in response accuracy
   * Integrated with a large-scale cloud server and deployed a multi-platform system using Coze, Discord, and Line
 
 * [**Large-scale Data Mining**](https://github.com/pinhan-chen/large_scale_data_mining), University of California, Los Angles, Mar 2023
