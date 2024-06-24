@@ -21,7 +21,7 @@ Technical Skills
 ======
 * Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, MATLAB, Socket programming
 * Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3, Ray
-* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees, Generative AI
+* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees
 * Softwares/Tools: Linux, Docker, Jenkins, Git, Jira, Tableau, Azure, AWS, Coze
 
 
@@ -44,7 +44,7 @@ Work experience
 
 * Feb 2021 – Jan 2022: **Research Assistant**
   * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
-  * Engineered an AI model using [MuZero Algorithm](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) to outperform top 1% players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
+  * Engineered an AI model using [MuZero Algorithm](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) to outperform top players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
   * The first research that utilized MuZero Algorithm on Chinese Dark Chess as of Jan 2022
 
 * Mar 2020 – Jun 2020: **Undergraduate Research Assistant**
@@ -55,7 +55,7 @@ Work experience
 Selected Projects
 ======
 * **MLLM Career Advisor**, Self-employed, Mar 2023
-  * Built a personalized advisor utilizing LLM and RAG techniques, achieving a 30% improvement in response accuracy
+  * Built a personalized advisor utilizing LLM and RAG, achieving a 30% improvement in response accuracy
   * Integrated with a large-scale cloud server and deployed a multi-platform system using Coze, Discord, and Line
 
 * [**Large-scale Data Mining**](https://github.com/pinhan-chen/large_scale_data_mining), University of California, Los Angles, Mar 2023
