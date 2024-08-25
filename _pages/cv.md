@@ -9,19 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version of my resume [here](https://drive.google.com/file/d/1asqoSIdGPvlDIH5Jp4ZGN2qbpDyR8Z-U/view?usp=sharing). (CV [here](https://drive.google.com/file/d/1xFtlMcknJfUj5N08zyzI3bXb6K20pAKT/view?usp=sharing))
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/1EEetf1JGl12mi3q8jEsGurfJzRR8elRx/view?usp=sharing). (CV [here](https://drive.google.com/file/d/1IXFtXexVj9doApB50sJUdhMMBkviXtNP/view?usp=sharing))
 
 Education
 ======
 * MEng in Artificial Intelligence, **University of California, Los Angeles (UCLA)**, 2023
 * BSc in Computer Science, Applied Mathematics (double major), **National Yang Ming Chiao Tung University**, 2022
-* Exchange Student in Mathematics, **Nanyang Technology University**, 2020
+* Exchange Student in Mathematics, **Nanyang Technological University**, 2020
 
 Technical Skills
 ======
 * Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, MATLAB, Socket programming
 * Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3, Ray
-* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees
+* ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees, Generative AI (LLM-agent, RLHF, DPO) 
 * Softwares/Tools: Linux, Docker, Jenkins, Git, Jira, Tableau, Azure, AWS, Coze
 
 
@@ -30,12 +30,12 @@ Work experience
 * Mar 2024 – Present: **AI Research Scientist**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
   * Hired as an exceptional employee; Led and collaborated with seniors having a PhD or 5+ years of experience
-  * Designed a multi-objective optimization ML system utilizing surrogate models with Reinforcement Learning
+  * Coordinated a team of 6 engineers in creating a machine learning system for digital pre-distortion, resulting in a 30% improvement in efficiency over traditional methods
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
   * Achieved over 95% accuracy by developing ensemble and weighted algorithms using LightGBM, and Keras
-  * Enhanced data foundation and feature engineering by designing a data pipeline with 170k patient dataset
+  * Invented two ensemble and weighted algorithms, leading to a 12% improvement in model performance and efficiency
 
 * Apr 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
