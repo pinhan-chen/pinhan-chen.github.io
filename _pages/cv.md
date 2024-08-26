@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version of my resume [here](https://drive.google.com/file/d/1Ko4aE4RTvyTM_chaY-v6-2gn8yhc_THY/view?usp=sharing). (CV [here](https://drive.google.com/file/d/17-7iIrywjgZyqUZL2LgdHzLeeRenjAqH/view?usp=sharing)) [last edited: 08/26/2024]
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/1zRX7v4AjVCPc4g9BuXSoPVkQoDkpHTVB/view?usp=sharing). (CV [here](https://drive.google.com/file/d/1xKWwCLDhnKLkSiEabNtwPmBxMUlkwBRq/view?usp=sharing)) [last edited: 08/26/2024]
 
 Education
 ======
@@ -27,7 +27,7 @@ Technical Skills
 
 Work experience
 ======
-* Mar 2024 – Present: **AI Research Scientist**
+* Mar 2024 – Present: **Research Scientist Intern**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
   * Spearheaded an interdisciplinary team of 7 research scientists in exploring the capability of AI/ML solutions, saving $100k annual cost by constructing an automation parameter optimization system
   * Coordinated a team of 6 engineers in creating a machine learning system for digital pre-distortion, resulting in a 30% improvement in efficiency over traditional methods
