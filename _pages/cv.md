@@ -20,7 +20,7 @@ Education
 Technical Skills
 ======
 * Programming Languages: **Python**, **C/C++**, Shell Scripts, Java, SQL, MATLAB, Socket programming
-* Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Tianshou, Stable Baselines3, Ray
+* Deep Learning Frameworks: **PyTorch**, **TensorFlow**, Keras, Scikit-learn, Stable Baselines3, Ray
 * ML Algorithms: **RL (AlphaZero, MuZero, PPO)**, **Transformer**, CNN, RNN, GAN, SVM, Gradient Boosted Trees, Generative AI (LLM-agent, RLHF, DPO) 
 * Softwares/Tools: Linux, Docker, Jenkins, Git, Jira, Tableau, Azure, AWS, Coze
 
@@ -29,7 +29,7 @@ Work experience
 ======
 * Mar 2024 – Present: **Research Scientist Intern**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
-  * Spearheaded an interdisciplinary team of 7 research scientists in exploring the capability of AI/ML solutions, saving $100k annual cost by constructing an automation parameter optimization system
+  * Spearheaded an interdisciplinary team of 7 scientists in exploring the capability of AI/ML solutions, saving $100k annual cost by constructing an automation parameter optimization system
   * Coordinated a team of 6 engineers in creating a machine learning system for digital pre-distortion, resulting in a 30% improvement in efficiency over traditional methods
   * Built an end-to-end MLOps for cross-functional team collaboration using Python, Conda, Git, and Shell Scripts, enabling CI/CD pipelines, enhancing experiment efficiency by 80%
 

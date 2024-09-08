@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Welcome to my website! I am PinHan (Peter) Chen, an AI research scientist at [MediaTek](https://www.mediatek.com/) who is enthusiastic about Machine Learning algorithms especially in Deep Reinforcement Learning (DRL).Currently, I am working on high-dimensional optimization problems related to on-chip AI applications. For my side projects, I am actively studying Generative AI and RLHF, building my personal "Jarvis" to improve my productivity.
+Welcome to my website! I am PinHan (Peter) Chen, an Applied Scientist Intern at [MediaTek](https://www.mediatek.com/) who is enthusiastic about Machine Learning algorithms especially in Deep Reinforcement Learning. Currently, I am working on high-dimensional optimization problems related to on-chip AI applications. For my side projects, I am actively studying Generative AI and RLHF, building my personal "Jarvis" to improve my productivity.
 
 I graduated from [UCLA](https://www.ucla.edu/) with a Master's degree in Artificial Intelligence last year. Before enrolling at UCLA, I received Bachelor's degrees in Computer Science and Applied Mathematics from [National Yang Ming Chiao Tung Unversity](https://www.nycu.edu.tw/nycu/en/index) in 2022. I was also an exchange student at [Nanyang Technological University](https://www.ntu.edu.sg/) in 2020. Through my interdisciplinary career, I became acute at applying my analytical personality in solving NP-hard problems. For instance, My DRL and coding skills built at [CGI Lab](https://cgilab-tw.github.io/) with Prof. [I-Chen Wu](https://icwu307.github.io/) had helped me solve the macro placement problem in MediaTek.
 
@@ -15,7 +15,7 @@ Outside of academic, I was the mentor at the blue gear program, which was an inv
 
 In my leisure time, I played strategic games such as [Teamfight Tactics (TFT)](https://teamfighttactics.leagueoflegends.com/en-us/), [Othello](https://en.wikipedia.org/wiki/Reversi#Othello), and Board games as my hobbies. In TFT season 6, I ranked at the Challenger tier in TW server. I am now studying poker to try to establish a stable cash flow through online cash game.
 
-Glad to meeting with you! I am actively looking for a Machine Learning Scientist/Engineer position, please feel free to contact me if you have any opportunities.
+Glad to meeting with you! I am actively looking for a Machine Learning Engineer or Software Engineer position, please feel free to contact me if you have any opportunities.
 
 
 
