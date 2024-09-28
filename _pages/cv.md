@@ -38,7 +38,7 @@ Work experience
   * Achieved over **95% accuracy** by developing ensemble and weighted algorithms using LightGBM, and Keras
   * Invented two ensemble and weighted algorithms, leading to a 12% improvement in model performance and efficiency
 
-* Apr 2022 – Aug 2022: **Machine Learning Engineer**
+* Mar 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
   * Achieved **top 1%** ranking among entry-level employees, earning two distinguished job performance awards
   * Developed an automation system using a scalable RL algorithm, benefiting over **$3B revenue** in smartphone business
@@ -55,7 +55,7 @@ Work experience
 
 Selected Projects
 ======
-* **MLLM Career Advisor**, Self-employed, Jun 2024
+* [**MLLM Career Advisor**](https://www.coze.com/s/ZmFb3NpQF/), Self-employed, Jun 2024
   * Built a personalized advisor utilizing LLM and RAG, achieving a 30% improvement in response accuracy
   * Integrated with a large-scale cloud server and deployed a multi-platform system using Coze, Discord, and Line
 
