@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version of my resume [here](https://drive.google.com/file/d/139CpYJTeM78vHS2D3PgMagP8zsynutmQ/view?usp=sharing). (CV [here](https://drive.google.com/file/d/1Az2Y_gX6Vem6pzqjBZAxv8D27dl12Mp2/view?usp=sharing)) [last edited: 08/27/2024]
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/13Fj8aGeGdkpNzMebj2DPUQXGLzDl68nG/view?usp=sharing). (CV [here](https://drive.google.com/file/d/12H1DDlUS7YR4qpihJzAHfmgPUt7FzOq_/view?usp=sharing)) [last edited: 09/28/2024]
 
 Education
 ======
@@ -27,21 +27,21 @@ Technical Skills
 
 Work experience
 ======
-* Mar 2024 – Present: **Research Scientist Intern**
+* Mar 2024 – Present: **Applied Scientist Intern**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
-  * Spearheaded an interdisciplinary team of 7 scientists in exploring the capability of AI/ML solutions, saving $100k annual cost by constructing an automation parameter optimization system
-  * Coordinated a team of 6 engineers in creating a machine learning system for digital pre-distortion, resulting in a 30% improvement in efficiency over traditional methods
-  * Built an end-to-end MLOps for cross-functional team collaboration using Python, Conda, Git, and Shell Scripts, enabling CI/CD pipelines, enhancing experiment efficiency by 80%
+  * Developed neural networks and pruning techniques for digital pre-distortion as the **team leader**, achieving a 32% improvement in efficiency
+  * Built an end-to-end **MLOps** for cross-functional team collaboration using Python, Conda, Git, and Shell Scripts, enabling CI/CD pipelines, enhancing system performance by 80%
+  * Constructed a parameter optimization system using Bayesian Optimization and RL, saving **$100k annual cost**
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
-  * Achieved over 95% accuracy by developing ensemble and weighted algorithms using LightGBM, and Keras
+  * Achieved over **95% accuracy** by developing ensemble and weighted algorithms using LightGBM, and Keras
   * Invented two ensemble and weighted algorithms, leading to a 12% improvement in model performance and efficiency
 
 * Apr 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
-  * Achieved top 1% ranking among entry-level employees, earning two distinguished job performance awards
-  * Reduced Macro Placement production time by 60% with a Deep Reinforcement Learning (DRL) model
+  * Achieved **top 1%** ranking among entry-level employees, earning two distinguished job performance awards
+  * Developed an automation system using a scalable RL algorithm, benefiting over **$3B revenue** in smartphone business
 
 * Feb 2021 – Jan 2022: **Research Assistant**
   * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
@@ -74,13 +74,13 @@ Selected Projects
 
 Leadership / Extracurricular
 ======
-* **Mentor @ Blue Gar Program**, National Chiao Tung University, 2019 - 2021
-  * Ranked at the 1st place in the McKinsey case competition among 15 annually nominated students
-  * Led weekly study groups to develop leadership and business ideology for distinguished student leaders
-  * Gained 100% profit within a month with TWD $5000 by building a start-up among college student community
+* **Mentor @ Blue Gar Program**, National Chiao Tung University, 2019 - Present
+  * An invite-only program for 15 nominated students from distinguished student associations every year
+  * Led weekly study groups; Held seminars to develop leadership and business ideology for student leaders
+  * Gained 100% profit within a month with TWD 5000 by building a start-up among college student community
 
 * **Vice President @ [The Midland of Taiwan Alumni Association](https://www.facebook.com/NctuCyFamily)**, National Chiao Tung University, 2018 - 2019
-  * Best student association of the year (2019)
+  * Led an association with over 400 members: Best student association of the year (2019)
   * Initiated the first cross-associations event with 5 leaders, which has become the largest annual event
   * Led a team over 50 members to organize a 10-day coding bootcamp for over 300 high school students
 
