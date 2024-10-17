@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version of my resume [here](https://drive.google.com/file/d/13Fj8aGeGdkpNzMebj2DPUQXGLzDl68nG/view?usp=sharing). (CV [here](https://drive.google.com/file/d/12H1DDlUS7YR4qpihJzAHfmgPUt7FzOq_/view?usp=sharing)) [last edited: 09/28/2024]
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/1dZjzna33kBMKIJX3M-QUvb7zMRjvdzKt/view?usp=sharing). (CV [here](https://drive.google.com/file/d/12H1DDlUS7YR4qpihJzAHfmgPUt7FzOq_/view?usp=sharing)) [last edited: 10/16/2024]
 
 Education
 ======
