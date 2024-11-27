@@ -51,7 +51,7 @@ enabling CI/CD pipelines, enhancing system performance by 80%
   * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
   * Created a gaming AI framework using Python and PyTorch, achieving a **3x speedup** in execution time with C/C++
   * Conceptualized randomness inside Dark Chess using PyTorch and C/C++, boosting model performance by 15%
-  * Initiated first [MuZero](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) -based model research on Chinese Dark Chess; Outperform top 1% human players
+  * Initiated first [MuZero](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/)-based model research on Chinese Dark Chess; Outperform top 1% human players
   
 * Mar 2020 – Jun 2020: **Undergraduate Research Assistant**
   * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Remote

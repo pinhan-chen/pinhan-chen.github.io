@@ -24,7 +24,7 @@ author:
   avatar           : "headshot.jpg"
   name             : "PinHan Chen"
   pronouns         : # example: "she/her"  
-  bio              : "Applied Scientist Intern @ MediaTek, \n\ MEng AI @ UCLA. \n\ Interested in Machine Learning, Reinforcement Learning, Electronic Design Automation, RLHF, and Optimization Problems."
+  bio              : "Applied Scientist Intern @ MediaTek, \n\ MEng AI @ UCLA. \n\ Interested in Machine Learning for Electronic Design Automation, Reinforcement Learning, Optimization, and Agentic Workflow (Multi-agent)."
   location         : "West Lafayette, IN"
   # employer         : "Red Brick University"
   uri              : # URL
