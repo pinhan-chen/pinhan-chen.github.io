@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download a PDF version of my resume [here](https://drive.google.com/file/d/1dZjzna33kBMKIJX3M-QUvb7zMRjvdzKt/view?usp=sharing). (CV [here](https://drive.google.com/file/d/12H1DDlUS7YR4qpihJzAHfmgPUt7FzOq_/view?usp=sharing)) [last edited: 10/16/2024]
+You can download a PDF version of my resume [here](https://drive.google.com/file/d/1m7baSaElALUpz5RSlXS303-f7aM-pwCM/view?usp=sharing). (CV [here](https://drive.google.com/file/d/15UOgsw6n5nFra6L9r-PI5FJ5k6bHLSKg/view?usp=sharing)) [last edited: 11/26/2024]
 
 Education
 ======
@@ -29,29 +29,34 @@ Work experience
 ======
 * Mar 2024 – Present: **Applied Scientist Intern**
   * [**MediaTek**](https://www.mediatek.com/) Strategic Technology Team, West Lafayette, IN
-  * Developed neural networks and pruning techniques for digital pre-distortion as the **team leader**, achieving a 32% improvement in efficiency
-  * Built an end-to-end **MLOps** for cross-functional team collaboration using Python, Conda, Git, and Shell Scripts, enabling CI/CD pipelines, enhancing system performance by 80%
-  * Constructed a parameter optimization system using Bayesian Optimization and RL, saving **$100k annual cost**
+  * Invented neural networks (ConvKAN) solutions as the team leader, achieving same performance with 40% fewer parameters
+  * Built an end-to-end MLOps for cross-functional team collaboration using Python, Conda, Git, and Shell Scripts,
+enabling CI/CD pipelines, enhancing system performance by 80%
+  * Constructed an optimization system using physics-aware Reinforcement Learning, saving **$100k annual cost**
+  * Launched Large Language Models research for chip design, building a multi-agent system for RF circuit copilot
 
 * Jun 2023 – Sep 2023: **Machine Learning Intern**
   * [**Johns Hopkins Hospital**](https://www.hopkinsmedicine.org/the-johns-hopkins-hospital), Remote
-  * Achieved over **95% accuracy** by developing ensemble and weighted algorithms using LightGBM, and Keras
+  * Led a team of 5 interns in building a peak-time prediction model using LightGBM and Keras, attaining 95% accuracy
+  * Enhanced data engineering and feature selection by designing a sequential **data pipeline** with 170k patient dataset
   * Invented two ensemble and weighted algorithms, leading to a 12% improvement in model performance and efficiency
 
 * Mar 2022 – Aug 2022: **Machine Learning Engineer**
   * [**MediaTek**](https://www.mediatek.com/) Artificial Intelligence Team, Hsinchu, Taiwan
   * Achieved **top 1%** ranking among entry-level employees, earning two distinguished job performance awards
   * Developed an automation system using a scalable RL algorithm, benefiting over **$3B revenue** in smartphone business
+  * Rebuilt a **deep reinforcement learning** framework with continuous action, reducing the dependency on rule-based search
 
 * Feb 2021 – Jan 2022: **Research Assistant**
   * [**CGI Lab**](https://cgilab-tw.github.io/), Remote
-  * Engineered an AI model using [MuZero Algorithm](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) to outperform top players in [Othello](https://en.wikipedia.org/wiki/Reversi) and [Chinese Dark Chess](https://en.wikipedia.org/wiki/Banqi)
-  * The first research that utilized MuZero Algorithm on Chinese Dark Chess as of Jan 2022
-
+  * Created a gaming AI framework using Python and PyTorch, achieving a **3x speedup** in execution time with C/C++
+  * Conceptualized randomness inside Dark Chess using PyTorch and C/C++, boosting model performance by 15%
+  * Initiated first [MuZero](https://deepmind.google/discover/blog/muzero-mastering-go-chess-shogi-and-atari-without-rules/) -based model research on Chinese Dark Chess; Outperform top 1% human players
+  
 * Mar 2020 – Jun 2020: **Undergraduate Research Assistant**
   * [**Lu Lab**](https://lulab.stat.nycu.edu.tw/?lang=eng), Remote
-  * Developed a proof of concept for a feature extraction algorithm for high-dimensional datasets using C/C++
-  * Created a X-ray film classification model using YOLOv3 algorithm, achieving 90% accuracy within three months
+  * Crafted a **feature extraction** algorithm for high-dimensional datasets using C/C++, improving performance by 7%
+  * Established an X-ray image processing model using computer vision framework - YOLOv3, accomplishing 90% accuracy
 
 Selected Projects
 ======
