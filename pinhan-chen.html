@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pin-Han Chen - PhD Student at USC</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* UCLA Colors */
+            --primary: #2774AE;
+            --primary-dark: #005587;
+            --accent: #FFD100;
+            --accent-dark: #FFB81C;
+            --text: #1a1a1a;
+            --text-light: #4a4a4a;
+            --bg: #fefefe;
+            --bg-alt: #f7f9fb;
+            --border: #e2e8f0;
+            --shadow: rgba(39, 116, 174, 0.1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* ===== Navigation ===== */
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(254, 254, 254, 0.97);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            z-index: 1000;
+            padding: 0 2rem;
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .nav-logo {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: var(--primary-dark);
+            text-decoration: none;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--text-light);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--accent);
+            transition: width 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* ===== Hero Section ===== */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 120px 2rem 80px;
+            background: linear-gradient(160deg, var(--bg) 0%, var(--bg-alt) 50%, #f0f6fa 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -30%;
+            right: -15%;
+            width: 60%;
+            height: 120%;
+            background: radial-gradient(ellipse, rgba(255, 209, 0, 0.08) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .hero-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 0.9fr 1.3fr;
+            gap: 5rem;
+            align-items: center;
+        }
+
+        .hero-image {
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            width: 100%;
+            max-width: 340px;
+            border-radius: 12px;
+            box-shadow: 0 30px 60px var(--shadow), 0 10px 20px rgba(0,0,0,0.05);
+        }
+
+        .hero-image::before {
+            content: '';
+            position: absolute;
+            top: -12px;
+            left: calc(50% - 182px);
+            width: 340px;
+            height: calc(100% + 24px);
+            border: 2px solid var(--accent);
+            border-radius: 12px;
+            z-index: -1;
+            opacity: 0.6;
+        }
+
+        .hero-content h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3.2rem;
+            font-weight: 700;
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+            line-height: 1.15;
+        }
+
+        .hero-content .subtitle {
+            font-size: 1.25rem;
+            color: var(--primary);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero-content .affiliation {
+            font-size: 1.05rem;
+            color: var(--text-light);
+            margin-bottom: 1.8rem;
+            line-height: 1.8;
+        }
+
+        .hero-content .intro {
+            font-size: 1.02rem;
+            line-height: 1.85;
+            color: var(--text);
+            margin-bottom: 1.5rem;
+        }
+
+        .hero-content .highlight {
+            background: linear-gradient(transparent 55%, rgba(255, 209, 0, 0.35) 55%);
+            padding: 0 3px;
+        }
+
+        /* ===== Social Links ===== */
+        .social-links {
+            display: flex;
+            gap: 0.8rem;
+            margin-top: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.65rem 1.2rem;
+            background: white;
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px var(--shadow);
+        }
+
+        /* ===== Sections ===== */
+        section {
+            padding: 5rem 2rem;
+        }
+
+        .section-container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .section-title {
+            font-family: 'Playfair Display', serif;
+            font-size: 2rem;
+            color: var(--primary-dark);
+            margin-bottom: 2.5rem;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--accent);
+        }
+
+        /* ===== Publications ===== */
+        #publications {
+            background: white;
+        }
+
+        .publication-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.3rem;
+        }
+
+        .publication-item {
+            padding: 1.5rem 1.8rem;
+            background: var(--bg-alt);
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+            box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+            transition: all 0.3s ease;
+        }
+
+        .publication-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 8px 25px var(--shadow);
+        }
+
+        .publication-item .title {
+            font-weight: 600;
+            color: var(--primary-dark);
+            margin-bottom: 0.5rem;
+            font-size: 1.02rem;
+            line-height: 1.5;
+        }
+
+        .publication-item .authors {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .publication-item .authors strong {
+            color: var(--text);
+        }
+
+        .publication-item .venue {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .publication-item .status {
+            display: inline-block;
+            margin-top: 0.5rem;
+            padding: 0.25rem 0.7rem;
+            background: #e8f5e9;
+            color: #2e7d32;
+            font-size: 0.78rem;
+            font-weight: 600;
+            border-radius: 4px;
+        }
+
+        .publication-item .status.prep {
+            background: #fff3e0;
+            color: #e65100;
+        }
+
+        /* ===== Education ===== */
+        #education {
+            background: var(--bg-alt);
+        }
+
+        .education-timeline {
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .education-timeline::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 8px;
+            bottom: 8px;
+            width: 2px;
+            background: linear-gradient(to bottom, var(--primary-dark), var(--primary));
+        }
+
+        .education-item {
+            position: relative;
+            padding-bottom: 2.2rem;
+            padding-left: 2rem;
+        }
+
+        .education-item:last-child {
+            padding-bottom: 0;
+        }
+
+        .education-item::before {
+            content: '';
+            position: absolute;
+            left: -2rem;
+            top: 6px;
+            width: 14px;
+            height: 14px;
+            background: var(--primary);
+            border-radius: 50%;
+            transform: translateX(-6px);
+            border: 3px solid white;
+            box-shadow: 0 0 0 2px var(--primary);
+        }
+
+        .education-item .degree {
+            font-weight: 600;
+            color: var(--primary-dark);
+            font-size: 1.1rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .education-item .school {
+            color: var(--text);
+            font-weight: 500;
+            margin-bottom: 0.2rem;
+        }
+
+        .education-item .year {
+            color: var(--text-light);
+            font-size: 0.9rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .education-item .details {
+            color: var(--text-light);
+            font-size: 0.92rem;
+            line-height: 1.6;
+        }
+
+        /* ===== Experience ===== */
+        #experience {
+            background: white;
+        }
+
+        .experience-item {
+            display: grid;
+            grid-template-columns: 180px 1fr;
+            gap: 2rem;
+            padding: 1.8rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .experience-item:last-child {
+            border-bottom: none;
+        }
+
+        .experience-item .period {
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.92rem;
+        }
+
+        .experience-item .company {
+            font-weight: 600;
+            color: var(--text);
+            font-size: 1.1rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .experience-item .role {
+            color: var(--primary);
+            font-weight: 500;
+            margin-bottom: 0.6rem;
+        }
+
+        .experience-item .description {
+            color: var(--text-light);
+            font-size: 0.94rem;
+            line-height: 1.7;
+        }
+
+        /* ===== Awards ===== */
+        #awards {
+            background: var(--bg-alt);
+        }
+
+        .awards-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .award-item {
+            padding: 1.2rem 1.5rem;
+            background: white;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .award-item:hover {
+            transform: translateX(5px);
+            box-shadow: 0 4px 15px var(--shadow);
+        }
+
+        .award-item .name {
+            font-weight: 600;
+            color: var(--text);
+            margin-bottom: 0.2rem;
+        }
+
+        .award-item .details {
+            color: var(--text-light);
+            font-size: 0.9rem;
+        }
+
+        /* ===== Contact ===== */
+        #contact {
+            background: linear-gradient(135deg, var(--primary-dark) 0%, #003B5C 100%);
+            color: white;
+            text-align: center;
+        }
+
+        #contact .section-title {
+            color: white;
+        }
+
+        #contact .section-title::after {
+            background: var(--accent);
+        }
+
+        .contact-text {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .contact-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .contact-btn {
+            display: inline-flex;
+            align-items: center;
+            padding: 0.9rem 1.8rem;
+            background: var(--accent);
+            color: var(--primary-dark);
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            background: var(--accent-dark);
+        }
+
+        .contact-btn.secondary {
+            background: transparent;
+            border: 2px solid white;
+            color: white;
+        }
+
+        .contact-btn.secondary:hover {
+            background: white;
+            color: var(--primary-dark);
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            background: #002145;
+            color: rgba(255, 255, 255, 0.6);
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        /* ===== Responsive ===== */
+        @media (max-width: 900px) {
+            .hero-container {
+                grid-template-columns: 1fr;
+                text-align: center;
+                gap: 3rem;
+            }
+
+            .hero-image {
+                order: -1;
+            }
+
+            .hero-image img {
+                max-width: 280px;
+            }
+
+            .hero-image::before {
+                left: calc(50% - 152px);
+                width: 280px;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+
+            .experience-item {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+            }
+        }
+
+        @media (max-width: 600px) {
+            .nav-links {
+                display: none;
+            }
+
+            .hero-content h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                padding: 3.5rem 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.7rem;
+            }
+        }
+
+        /* ===== Animations ===== */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(25px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero-content {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .hero-image {
+            animation: fadeInUp 0.8s ease 0.15s forwards;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Pin-Han Chen</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-container">
+            <div class="hero-image">
+                <img src="https://drive.google.com/file/d/1jcvjFDHQLZ7h9_fKZBE_u9nt5ORgFwfp/view?usp=sharing" alt="Pin-Han Chen">
+            </div>
+            <div class="hero-content">
+                <h1>Pin-Han (Peter) Chen</h1>
+                <p class="subtitle">1st year PhD Student in Electrical & Computer Engineering</p>
+                <p class="affiliation">
+                    University of Southern California (USC)<br>
+                    Southern California Computer-Aided Design Lab (SCCAD)<br>
+                    Advisor: Prof. <a href="https://limsk.ece.gatech.edu/">Sung Kyu Lim</a>
+                </p>
+                
+                <p class="intro">
+                    Hi! I am Peter, welcome to my website. I am currently pursuing a PhD in ECE at USC, working on the intersection of
+                    <strong>Machine Learning</strong> and <strong>Electronic Design Automation (EDA)</strong> for 2.5D/3D ICs Design. 
+
+                    My research focuses on developing ML-driven solutions for 2.5D/3D IC design, including 
+                    reinforcement learning for optimization and physics-driven neural networks for modeling.
+                    <br><br>
+                    Previously, I was a Research Scientist/Machine Learning Engineer at </strong>MediaTek</strong>, where piqued my interests in 
+                    applying machine learning algorithms for chip design problems (Ex: macro placement). 
+                    I have also developed multi-agent AI systems for RF/Analog design and built physics-aware deep learning models for advanced packaging.
+                    <br><br>
+                    Outside of research, I am also interested in leadership program (Ex: Blue Gear Program), board games (Ex: Teamfight Tactics (TFT), 
+                    Othello, and pokers), and start-ups. Feel free to reach out to me for any discussions.
+
+                    <!-- Hi! I'm a PhD student at <span class="highlight">USC</span>, working on the intersection of 
+                    <strong>Machine Learning</strong> and <strong>Electronic Design Automation (EDA)</strong>. 
+                    My research focuses on developing ML-driven solutions for 
+                    <span class="highlight">2.5D/3D IC design</span>, including reinforcement learning for optimization 
+                    and physics-informed neural networks for modeling.
+                    <br><br>
+                    Previously, I was a Research Scientist at <strong>MediaTek</strong>, where I built multi-agent AI systems 
+                    for RF/Analog design and developed physics-aware deep learning models for advanced packaging. -->
+                </p>
+                
+                <div class="social-links">
+                    <a href="mailto:phchen715@gmail.com">Email</a>
+                    <a href="https://github.com/pinhan-chen" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/pinhan-chen" target="_blank">LinkedIn</a>
+                    <a href="https://scholar.google.com/citations?user=23eJClgAAAAJ&hl=zh-TW&authuser=1" target="_blank">Google Scholar</a>
+                    <!-- <a href="https://pinhan-chen.github.io" target="_blank">Website</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications">
+        <div class="section-container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publication-list">
+                <div class="publication-item">
+                    <p class="title">MenTeR: A Fully-Automated Multi-Agent Workflow for End-to-End RF/Analog Circuits Netlist Design</p>
+                    <p class="authors"><strong>P.-H. Chen</strong>, Y.-S. Lin, W.-C. Lee, T.-Y. Leu, P.-H. Hsu, A. Dissanayake, S. Oh, C.-S. Chiu</p>
+                    <p class="venue">IEEE International Conference on LLM-Aided Design (ICLAD), 2025</p>
+                    <span class="status">Published</span>
+                </div>
+                <div class="publication-item">
+                    <p class="title">Physics-driven Warpage Modeling for 2.5D/3D IC Design with Mechanical-informed Neural Network</p>
+                    <p class="authors"><strong>P.-H. Chen</strong>, S. Lim</p>
+                    <p class="venue">IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2026</p>
+                    <span class="status prep">In Preparation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education">
+        <div class="section-container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <p class="degree">PhD in Electrical and Computer Engineering</p>
+                    <p class="school">University of Southern California (USC)</p>
+                    <p class="year">Aug 2025 – Present | Los Angeles, CA</p>
+                    <p class="details">GPA: 4.0/4.0 · Advisor: Prof. Sung Kyu Lim (Transferred from Georgia Tech)</p>
+                </div>
+                <div class="education-item">
+                    <p class="degree">MEng in Artificial Intelligence</p>
+                    <p class="school">University of California, Los Angeles (UCLA)</p>
+                    <p class="year">Sep 2022 – Dec 2023 | Los Angeles, CA</p>
+                </div>
+                <div class="education-item">
+                    <p class="degree">BSc in Computer Science & Applied Mathematics (Double Major)</p>
+                    <p class="school">National Yang Ming Chiao Tung University</p>
+                    <p class="year">Sep 2017 – Jan 2022 | Hsinchu, Taiwan</p>
+                    <p class="details">Advisor: Prof. I-Chen Wu · Focus: Deep Reinforcement Learning (DRL) for Chess Games</p>
+                </div>
+                <div class="education-item">
+                    <p class="degree">Exchange Student, Mathematics</p>
+                    <p class="school">Nanyang Technological University</p>
+                    <p class="year">Jan 2020 – Mar 2020 | Singapore</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+        <div class="section-container">
+            <h2 class="section-title">Experience</h2>
+            <div class="experience-list">
+                <div class="experience-item">
+                    <span class="period">Aug 2025 – Present</span>
+                    <div>
+                        <p class="company">Southern California Computer-Aided Design Lab (SCCAD)</p>
+                        <p class="role">Graduate Research Assistant</p>
+                        <p class="description">
+                            - Developing end-to-end 2.5D IC design workflow for mechanical integrity using Siemens and Ansys EDA tools <br>
+                            - Building ML framework for foundation model pretraining in 2D IC global routing <br>
+                            - Targeting multi-objective RL model with differentiable physics modeling for 2.5D/3D ICs
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <span class="period">Mar 2024 – Jun 2025</span>
+                    <div>
+                        <p class="company">MediaTek</p>
+                        <p class="role">Research Scientist, Strategic Technology Team</p>
+                        <p class="description">
+                            - Built multi-agent workflow for RF/Analog Design using AutoGen, outperforming benchmark by 39% <br>
+                            - Invented Convolutional KAN for Power Amplifier modeling with 2.2% improvement and 40% fewer parameters <br> 
+                            - Developed physics-aware DRL model for inverse CoWoS design, saving 60% simulation time
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <span class="period">Jun 2023 – Sep 2023</span>
+                    <div>
+                        <p class="company">Johns Hopkins Hospital</p>
+                        <p class="role">Machine Learning Intern</p>
+                        <p class="description">
+                            - Led a team of 5 interns building apeak-time prediction model achieving 95% accuracy <br>
+                            - Enhanced feature engineering by designing a sequential data pipeline with 170k patient dataset <br>
+                            - Invented two ensemble and weighted algorithms, leading to a 12% improvement in model performance and efficiency
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <span class="period">Mar 2022 – Aug 2022</span>
+                    <div>
+                        <p class="company">MediaTek</p>
+                        <p class="role">Machine Learning Engineer, AI Team</p>
+                        <p class="description">
+                            - Achieved top 1% ranking among entry-level employees, earning two distinguished job performance awards <br>
+                            - Developed a DRL model for macro placement optimization, alleviating the dependency on rule-based search <br>
+                            - Implemented pre-trained/fine-tuned pipelines with MLflow, saving 50% of training costs
+                        </p>
+                    </div>
+                </div>
+                <div class="experience-item">
+                    <span class="period">Feb 2021 – Jan 2022</span>
+                    <div>
+                        <p class="company">Computer Games and Intelligence (CGI) Lab</p>
+                        <p class="role">Research Assistant</p>
+                        <p class="description">
+                            - Created DRL model with PyTorch and Cython achieving 3x speedup <br>
+                            - Initiated first MuZero-based model research on Chinese Dark Chess <br>
+                            - Boosted model performance by 15% through randomness conceptualization neural network
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards -->
+    <section id="awards">
+        <div class="section-container">
+            <h2 class="section-title">Awards</h2>
+            <div class="awards-list">
+                <div class="award-item">
+                    <p class="name">Distinguished Job Performance Awards (×2)</p>
+                    <p class="details">MediaTek · May & Aug 2022 · Top 1% among entry-level employees</p>
+                </div>
+                <div class="award-item">
+                    <p class="name">Kaggle House Prices Prediction – Top 3%</p>
+                    <p class="details">Jun 2021 · Ranked top 3% out of 4,412 teams</p>
+                </div>
+                <div class="award-item">
+                    <p class="name">Excellent Exchange Student Scholarship</p>
+                    <p class="details">National Chiao Tung University · Jun 2020 · Top 10 students for NTU Singapore exchange</p>
+                </div>
+                <div class="award-item">
+                    <p class="name">Presidential Award</p>
+                    <p class="details">National Chiao Tung University · Mar 2020 · Top 3 students of the department</p>
+                </div>
+                <div class="award-item">
+                    <p class="name">BGP McKinsey Case Competition – 1st Place</p>
+                    <p class="details">Dec 2019 · Led team of 5 analysts for business strategy consulting</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="section-container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="contact-text">
+                Feel free to reach out to me for research collaborations, industry opportunities, or just chatting about technology.
+            </p>
+            <div class="contact-buttons">
+                <a href="mailto:phchen715@gmail.com" class="contact-btn">phchen715@gmail.com</a>
+                <a href="https://www.linkedin.com/in/pinhan-chen" target="_blank" class="contact-btn secondary">LinkedIn</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Copyright © Pin-Han Chen, 2026 |
+            <a href="https://github.com/pinhan-chen" target="_blank">GitHub</a> ·
+            <a href="https://www.linkedin.com/in/pinhan-chen" target="_blank">LinkedIn</a>
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.style.boxShadow = '0 2px 20px rgba(0, 0, 0, 0.08)';
+            } else {
+                nav.style.boxShadow = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
